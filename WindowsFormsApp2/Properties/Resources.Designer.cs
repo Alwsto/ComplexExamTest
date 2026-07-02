@@ -63,6 +63,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_2_июл__2026_г___14_13_56 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 2 июл. 2026 г., 14_13_56", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Наш_декор {
             get {
                 object obj = ResourceManager.GetObject("Наш декор", resourceCulture);

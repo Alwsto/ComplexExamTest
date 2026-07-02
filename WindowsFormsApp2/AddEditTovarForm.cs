@@ -17,6 +17,8 @@ namespace WindowsFormsApp2
         public AddEditTovarForm()
         {
             InitializeComponent();
+            this.Name = "AddEditTovarForm";
+            this.Text = "Добавление нового товара";
         }
 
         private void AddEditTovarForm_Load(object sender, EventArgs e)

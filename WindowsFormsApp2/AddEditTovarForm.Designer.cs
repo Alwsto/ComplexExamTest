@@ -45,6 +45,7 @@
             this.btnaddtotable = new System.Windows.Forms.Button();
             this.lbl = new System.Windows.Forms.Label();
             this.txtdesc = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -186,11 +187,22 @@
             this.txtdesc.Size = new System.Drawing.Size(270, 150);
             this.txtdesc.TabIndex = 16;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.Location = new System.Drawing.Point(254, 35);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(297, 37);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Добавление товара";
+            // 
             // AddEditTovarForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.txtdesc);
             this.Controls.Add(this.lbl);
             this.Controls.Add(this.btnaddtotable);
@@ -235,5 +247,6 @@
         private System.Windows.Forms.Button btnaddtotable;
         private System.Windows.Forms.Label lbl;
         private System.Windows.Forms.TextBox txtdesc;
+        private System.Windows.Forms.Label label8;
     }
 }

@@ -10,12 +10,18 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp2
+
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
+            this.Name = "LoginForm";
+            this.Text = "Авторизация";
+            UIHelper.RoundButton(btnSignUp, 20);
+            UIHelper.RoundButton(button1, 20);
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -71,6 +77,11 @@ namespace WindowsFormsApp2
             connection.Close();
 
 
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
 
         }
     }
